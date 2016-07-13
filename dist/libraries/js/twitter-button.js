@@ -1,0 +1,1 @@
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'http';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://static1.twitcount.com/js/buttonadd.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitcount_button_loader');
