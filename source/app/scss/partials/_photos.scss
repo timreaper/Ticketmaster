@@ -1,0 +1,22 @@
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 0;
+  text-align: center;
+  &__container {
+    height: 100px;
+    margin: 5px 0;
+    overflow: hidden;
+    width: 19%;
+    &:hover {
+      border: 1px solid $title-color;
+      @include opacity(0.4);
+      @include transition(all .5s);
+    }
+  }
+  &__photo {
+    cursor: pointer;
+    max-width: 100%;
+  }
+}

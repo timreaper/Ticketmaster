@@ -1,0 +1,16 @@
+.pagination {
+  bottom: 45px;
+  display: block;
+  position: absolute;
+  right: 20px;
+  &__link {
+    color: white;
+    padding: 0 5px;
+    text-decoration: none;
+    &--selected {
+      color: $title-color;
+      padding: 5px 0;
+      text-decoration: underline;
+    }
+  }
+}

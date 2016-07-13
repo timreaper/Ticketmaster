@@ -1,0 +1,31 @@
+.header {
+  text-align: left;
+  position: relative;
+  &__search {
+    bottom: 25%;
+    position: absolute;
+    right: 0;
+    &__icon {
+      color: $social-color;
+      cursor: pointer;
+      font-size: 20px;
+      position: absolute;
+      right: 10px;
+      top: 9px;
+    }
+    &__textbox {
+      border: 2px solid $social-color;
+      color: black;
+      padding: 5px 10px 5px 5px;
+      text-align: left;
+      width: 300px;
+    }
+  }
+  &__title {
+    color: $title-color;
+    display: inline;
+    font-family: 'Kameron', serif;
+    font-size: 5rem;
+    text-align: left;
+  }
+}
