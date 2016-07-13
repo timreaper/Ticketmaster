@@ -9,7 +9,7 @@ var gallery = new function () {
             url: endpoint,
             dataType: 'json',
             data: {
-                api_key: "b12510028a07d8fb2aa880bc88009c10",
+                api_key: "866e7dc8509c3c489c15c3173318ed2b",
                 format: "json",
                 method: "flickr.photos.search",
                 nojsoncallback: 1,
